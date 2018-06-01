@@ -40,12 +40,12 @@ namespace Character
 
         public void TakeDamage(int damage)
         {
-            HealthPoints -= 1;
+            HealthPoints = HealthPoints - damage;
         }
 
         public void RestoreHealth(int amount)
         {
-            HealthPoints += 1;
+            HealthPoints = HealthPoints + amount;
         }
     }
 }

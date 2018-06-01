@@ -55,7 +55,7 @@ namespace Character
         public void RemoveNPC(Character npc)
         {
             Console.WriteLine("An NPC has been removed");
-            enemies.Remove(player);
+            enemies.Remove(npc);
         }
     }
 }
